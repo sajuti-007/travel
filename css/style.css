@@ -1,0 +1,217 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+ 
+
+ body,h3,h4,h5,h6,p,span,input,form,a,li,ul{
+ 	font-family: 'Raleway', sans-serif;
+ }
+ h1,h2{
+ font-family: 'Merriweather', serif;
+ }
+ a,a:hover{
+ 	list-style: none;
+ }
+
+ /******************
+    background
+ *******************/
+ .background{
+ 	width: 100%;
+ 	background: url(../img/background.png);
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	height: 600vh;
+ }
+ /******************
+    travel here
+ *******************/
+ .travel{
+ 	width: 100%;
+ 	display: flow-root;
+ }
+ .box{
+    height: 300px;
+    width: 700px;
+    border: 5px solid #ad7835;
+    margin: 150px 200px;
+    text-align: center;
+
+}
+.box-title{
+	    margin: 40px 0;
+}
+.box-title h6{
+	font-size: 20px;
+    color: white;
+}
+.box-title hr{
+    width: 10%;
+    border: 1px solid white;
+}
+.box-title h1{
+font-size: 80px;
+font-weight: bold;
+color: white;
+letter-spacing: 5px;
+}
+.box-title p{
+	color: #ad7835;
+	font-size: 20px;
+}
+ /******************
+    travel here
+ *******************/
+.about-me{
+	width: 100%;
+	display: flow-root;
+	margin: 50px 0;
+}
+.about-image{
+	width: 100;
+	background: url(../img/photo-1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.about-des{
+	    padding: 140px 40px;
+	    text-align: left;
+
+}
+.about-des h1{
+	font-size: 50px;
+    font-weight: 600;
+    color: #ad7835;
+}
+.about-des hr{
+	text-align: left;
+    width: 20%;
+    border: 1px solid #ad7835;
+    margin-left: 10px;
+}
+.about-des p{
+	color: white;
+    font-size: 15px;
+}
+.about-des button{
+	margin-top: 30px;
+    padding: 8px 30px;
+    background: none;
+    font-size: 18px;
+    color: #ad7538;
+    border: 2px solid #ad7538;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+.about-des button:hover{
+	color: wheat;
+	transition: 0.5s ease-in-out;
+	border: 2px solid wheat;
+}
+/******************
+    article here
+ *******************/
+ .article{
+ 	width: 100%;
+ 	display: flow-root;
+ 	margin: 50px 0;
+ }
+.article-title{
+	text-align: center;
+    color: white;
+    margin: 40px 0;
+}
+.article-title h1{
+	color: #ad7538;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.article-hr{
+    margin-left: -300px;
+}
+.article-hr hr{
+	width: 10%;
+    border: 1px solid #ad7538;
+}
+.item{
+	margin: 40px 0;
+}
+.item-diff{
+	margin: 100px 0;
+}
+.item-title{
+	color: white;
+    padding: 0 35px;
+}
+.item-title h6{
+	color: #ad7538;
+    font-size: 20px;
+}
+.item-title hr{
+	border: 1px solid #ad7538;
+
+}
+.item-title p{
+	font-size: 15px;
+}
+.item-title i{
+	color: #ad7538;
+}
+.item-title a:hover{
+	color: wheat;
+	transition: 0.5s ease-in-out;
+
+}
+.item-title a{
+	color: #ad7538;
+	font-size: 14px;
+	transition: 0.5s ease-in-out;
+}
+/******************
+   GALLERY here
+ *******************/
+ .gallery{
+ 	width: 100%;
+ 	display: flow-root;
+ 	margin: 50px 0;
+ }
+ .g-title h1{
+ 	font-size: 50px;
+    font-weight: 600;
+    color: #ad7538;
+    letter-spacing: 3px;
+ }
+ .content ul{
+ 	list-style: none;
+ 	
+ }
+
+ .card-head-1 img{
+ 	margin-left: 115px;
+ }
+.card-head-3 img {
+    margin-left: -115px;
+    margin-top: 97px;
+}
+.card-head-7 img{
+	    margin-left: 108px;
+    margin-top: -160px;
+}
+.card-head-4 img{
+	margin-top: -170px;
+	margin-left: -4px;
+}
+.card-head-5 img{
+	margin-top: -238px;
+}
+.card-head-6 img{
+	margin-left: -115px;
+    margin-top: -260px;
+}
+}
+.card-head-3 img
+.card-head-3 img
